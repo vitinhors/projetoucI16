@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    background-size: cover;
+    background-position: center;
+    transition: background 4s ease; 
+}
+
+.bg-1 { background-image: url('/img/vecteezy_beautiful-sunset-sky-orange-blue-and-white-sky-colorful_7789134_750.jpg'); }
+.bg-2 { background-image: url('/img/vecteezy_storm-clouds-floating-in-a-rainy-day-with-natural-light_11899848_386.jpg'); }
+.bg-3 { background-image: url('/img/vecteezy_sunset-landscape-with-mountain-and-sun-gold-lighting-under_12000704_273.jpg'); }
+      
+    .section-highlight h1 {
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .section-highlight p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .section-highlight .btn-primary {
+        background-color: #007bff;
+        border: none;
+    }
+    footer {
+        background-color: #0978e7;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #f0f0f0;
+    }
+
+    .weather-widget {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px #ffffff;
+    }
+    
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    
+    button {
+        padding: 10px 20px;
+        background-color: #0072b5;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    body {
+        background-image: url('/img/10875.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .card {
+        border: 1px solid #ffffff;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 10px;
+        width: 300px;
+    }
+    
+    .card h2 {
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    .card-content {
+        margin-top: 10px;
+    }
+    
+    .temperature, .weather, .wind-speed, .current-time {
+        font-size: 16px;
+    }
+.navbar .nav-item button {
+    margin: 8px; 
+}
+
+.modal-content {
+    max-width: 400px; 
+    margin: auto;
+}
+
+.modal-body form {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 576px) {
+    .modal-content {
+        width: 90%;
+    }
+}
+

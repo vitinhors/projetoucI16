@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 150%;
+}
+
+#weather-container, #datetime-container {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    
+}
+
+#weather-info {
+    margin-top: 10px;
+}
+
+#datetime {
+    font-size: 1.5em;
+    color: #ffffff;
+}
+p{
+    color: #ffffff;
+}
+div{
+    color:#ffffff;
+}
+.card {
+    width: 00px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+    text-align: center;
+}
+
+.time-info {
+    margin-top: 15px;
+}
